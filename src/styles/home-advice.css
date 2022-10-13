@@ -1,0 +1,59 @@
+.advice-instructions {
+    color: #fafafa;
+    font-weight: 700;
+}
+
+
+.advice-content {
+    background-color: #202632;
+    min-height: 100vh!important;
+    font-family: 'Manrope', sans-serif;
+    min-width: 100vw;
+    
+}
+
+.advice-card {   
+    height: fit-content;
+    border-radius: 10px;
+    background-color: #313A49;
+    padding: 32px;
+    max-width: 500px;
+    width: 100%!important;
+}
+
+#advice-number {
+    color:#54FEAC;
+    font-size: 14px;
+    font-weight: 800;
+    letter-spacing: .2rem;
+}
+
+#advice-text {
+    color:#CEDCE7;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 2.6rem;
+}
+
+#circle-advice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 54px!important;
+    width: 54px;
+    background-color: #131313;
+    border-radius: 100%!important;
+    position: absolute;
+    margin: 0 auto;
+}
+
+#get-advice-button {
+    background-color:#313A49;
+    border: none;
+    border-radius: 5px;
+    width: 100%!important;
+    height: 40px;
+    color: #fafafa;
+    font-size: 16px;
+    font-weight: 700;
+}
