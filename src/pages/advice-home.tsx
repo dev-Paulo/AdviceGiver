@@ -65,7 +65,7 @@ export function AdviceHome() {
                 <Image
                   src={imgDivider}
                   alt="Divider of the advice"
-                  className="mb-4"
+                  className="mt-4 mb-5"
                 />
               </Box>
             </>
