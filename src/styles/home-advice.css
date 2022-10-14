@@ -1,9 +1,8 @@
 * {
-    width: 100%;
-    height: fit-content;
-    margin: 0;
-    padding: 0;
-    
+  width: 100%;
+  height: fit-content;
+  margin: 0;
+  padding: 0;
 }
 
 .advice-instructions {
@@ -59,6 +58,7 @@
   border-radius: 100% !important;
   position: absolute;
   margin: 0 auto;
+  cursor: pointer !important;
 }
 
 #get-advice-button {

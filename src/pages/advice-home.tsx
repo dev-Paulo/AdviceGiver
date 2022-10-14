@@ -26,8 +26,7 @@ export function AdviceHome() {
       })
       .then((slip) => {
         setLoading(false);
-        setAdvice(slip);
-        console.log(advice);
+        setAdvice(slip);        
       });
   }
 
@@ -62,10 +61,10 @@ export function AdviceHome() {
               </h2>
 
               <Box boxSize="sm">
-                <Image
+                <Image                  
                   src={imgDivider}
                   alt="Divider of the advice"
-                  className="mt-4 mb-5"
+                  className="mt-4 mb-5"                  
                 />
               </Box>
             </>
